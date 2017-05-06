@@ -10,7 +10,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     body {
         font-size: 15px;
     }
-    
+
 
 }
 
@@ -19,6 +19,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 90%;
     }
+
    .team-heading {
     text-align: center;
 	}
@@ -43,6 +44,22 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 80%;
     }
+
+  .navbar-nav {
+    padding-top: 15px;
+    background-color: rgb(250, 92, 101);
+    margin-top: 0px;
+    border-bottom-left-radius: 7px;
+  }
+
+  .mainmenu .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    font-family: 'open_sansregular';
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
 	.home-bg .header-details h1 {
     font-size: 39px;
 
@@ -71,7 +88,13 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	float:none;
 	margin-top:80px;
 	}
-   
+
+  p {
+    line-height: 2.2rem;
+    font-size: 1.6rem;
+  }
+
+
 }
 
 
@@ -82,14 +105,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         font-size: 65%;
     }
 	.home-bg .header-details h1 {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 3.1rem;
+    line-height: 3.6rem;
 	}
 	.home-bg .header-details p {
-    font-size: 12px;
+    font-size: 1.5rem;
 	}
 	.portfolio {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
 	}
 	.team-heading {
@@ -98,6 +121,22 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.portfolio img {
     margin-left:0;
 	}
+
+  .navbar-nav {
+    padding-top: 15px;
+    background-color: rgb(250, 92, 101);
+    margin-top: 0px;
+    border-bottom-left-radius: 7px;
+  }
+
+  .mainmenu .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    font-family: 'open_sansregular';
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
 
 }
 
@@ -112,6 +151,5 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.team-heading {
     text-align: center;
 	}
-	
-}
 
+}
