@@ -262,7 +262,7 @@ section:nth-of-type(odd) {
 .overlay {
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
-    min-height: 750px;
+    height: 100vh;
 }
 .overlay-fluid-block {
     background-color: rgba(0, 0, 0, 0.5);
@@ -276,6 +276,7 @@ section:nth-of-type(odd) {
 .overlay-img {
     background: rgba(66, 58, 58, 0.3);
     width: 100%;
+    height: 100vh;
     padding-top: 100px;
     padding-bottom: 230px;
     color: #ffffff;
@@ -377,7 +378,6 @@ input:-ms-input-placeholder {
 
 .home-bg{
     background: url(../images/header-bg.jpg) no-repeat center top fixed;
-	min-height:700px;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
